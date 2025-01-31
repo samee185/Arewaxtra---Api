@@ -90,7 +90,7 @@ const createAdminUser = asyncHandler(async (req, res, next) => {
     lastname,
     email,
     password: hashedPassword,
-    role: "admin",
+    role: "admin"
   });
 
   if (!adminUser) {
